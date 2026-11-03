@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://popaurmaa.com/sitemap.xml
+
+
+
