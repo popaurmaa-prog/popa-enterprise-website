@@ -1,0 +1,19 @@
+# CODEOWNERS — INSTALLED (founder-approved Nov 9, 2026, 18:54 CST)
+#
+# Purpose: a human review gate on the harness enforcement files
+# themselves. A PR that touches the check script or the workflow needs a
+# review from the repo owner before it can merge — so a weakened check
+# cannot slip through even if the CI guard is bypassed.
+#
+# Installed as `.github/CODEOWNERS` by the v1.1 install PR (founder-approved
+# Nov 9, 2026). The owner login popaurmaa-prog is VERIFIED from the repo's
+# commit author (Nov 9, 2026). Branch protection must require the owner's
+# review for these paths for the gate to bind; CODEOWNERS alone only
+# requests the review.
+#
+# The workflow guard (workflow-draft-v1.1.yml) is the primary defence:
+# it fails the job if the PR modifies these files at all. CODEOWNERS is
+# the second layer — a human look at the change.
+
+harness/ @popaurmaa-prog
+.github/ @popaurmaa-prog
