@@ -43,9 +43,9 @@
 /* Contact form: displayed only after the enterprise email is verified. */
 [hidden]{display:none!important}.inquiry-form{display:grid;gap:10px;margin-top:20px}.inquiry-form label{font-size:12px;color:#e0bd73;font-weight:700}.inquiry-form input,.inquiry-form select,.inquiry-form textarea{width:100%;background:#140f20;border:1px solid rgba(224,189,115,.35);color:#f7f3ed;padding:13px 14px;border-radius:6px;font:inherit}.inquiry-form textarea{resize:vertical}.inquiry-form :is(input,select,textarea):focus-visible{outline:2px solid #e0bd73;outline-offset:2px}.inquiry-form button{cursor:pointer}.inquiry-form select option{background:#140f20}
 
-/* Founder introduction — approved placement; published only when the video asset is present. */
+/* Founder introduction — approved placement; published only when the video is hosted. */
 .founder-video-feature{margin-top:54px;max-width:960px}
 .founder-video-feature h3{font:700 clamp(25px,3vw,38px)/1.2 Manrope,Arial,sans-serif;letter-spacing:-.04em;margin:12px 0 16px;color:#211a28}
 .founder-video-feature>p:not(.eyebrow){max-width:780px;color:#5b5160;font-size:15px;margin-bottom:24px}
-.founder-video-feature video{display:block;width:100%;aspect-ratio:16/9;max-height:540px;background:#120d1b;border:1px solid #d2c6b3;border-radius:10px;box-shadow:0 18px 40px rgba(25,15,35,.13)}
-@media(max-width:650px){.founder-video-feature{margin-top:36px}.founder-video-feature video{border-radius:6px}}
+.founder-video-feature .youtube-frame{max-height:540px;border:1px solid #d2c6b3;box-shadow:0 18px 40px rgba(25,15,35,.13)}
+@media(max-width:650px){.founder-video-feature{margin-top:36px}.founder-video-feature .youtube-frame{border-radius:6px}}
